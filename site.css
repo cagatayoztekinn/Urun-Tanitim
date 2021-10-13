@@ -1,0 +1,404 @@
+.formButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1140px; 
+}
+.logo{
+    width: 20px;
+    height: 20px;
+}
+.navbar{
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  background-color:rgba(226, 222, 222, 0.7);
+    
+}
+.navbar > img {
+    width: 100px;
+    height: 90px;
+    margin-left: 5px;
+   
+   
+}
+.navbar > ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.navbar > ul > li{
+    width: 100%;
+    margin-left: 30px;
+    text-align: center;
+    border-right: 1px solid rgba(43, 127, 206, 0.7);
+
+
+}
+.navbar > ul > li > a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 15px;
+    color: black;
+}
+.navbar > ul > li > a:hover{
+    font-size: 17px;
+    color: white;
+    background-color: rgba(43, 127, 206, 0.7);
+}
+.form-control{
+    width: 100%;
+}
+.d-flex{
+    width: 500px;
+    margin-left : 290px;
+    margin-top: -80px;
+}
+.d-menu{
+    background: white;
+    width: 250px;
+    height: 470px;
+    margin-top: 10px;
+
+}
+
+.d-menu ul li{
+   list-style: none;
+}
+
+.d-menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.d-menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    border-bottom:1px solid black;
+}
+
+/* .d-menu ul li ul {
+	display:none;
+} */
+
+.d-menu ul li:hover ul {
+	display:block;
+	position:absolute;
+    margin:-40px 0 0 250px;
+    z-index: 2;
+}
+
+.d-menu ul li ul li a {
+	padding:10px;
+	font-size:15px;
+	background-color: white;
+	border-bottom:1px solid #222;
+	transition:all .3s ease-in-out;
+	width:170px;
+    
+}
+.d-menu ul li a:hover {
+	background-color: rgba(43, 127, 206, 0.7);
+	transition:all .3s ease-in-out;
+} 
+
+h1{
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 25px;
+    background-color: rgba(43, 127, 206, 0.7);
+}
+
+.carousel{
+    width: 700px;
+    float: right;
+    position: relative;
+    top: -450px;
+    left: -150px;
+    z-index: 1;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.advertisement{
+    width: 140px;
+    height: 470px;
+    background-color: rgba(226, 222, 222, 0.7);
+    float: right;
+    position: relative;
+    top: -470px;
+    left: 700px;
+}
+iframe{
+    border-radius: 10px;
+    position: relative;
+    top: -470px;
+    left: 300px;
+}
+.row{
+    position: relative;
+    top: -400px;
+}
+.product{
+    margin-top: 15px;
+    width: 100%;
+    height: 400px;
+}
+.FirstCard{
+    width: 300px;
+    height: 300px;
+    display: inline-table;  
+    margin-left: 50px;
+ 
+}
+.FirstCard > img{
+    width: 300px;
+    height: 400px;
+}
+.card > img{
+    height: 250px;
+}
+textarea{
+    border-radius: 10px ;
+}
+.detay{
+    margin-top: -470px;
+    margin-left: 250px;
+    width: 60%;
+    height: 500px;   
+}
+.detay > img{
+    width: 350px;
+    height: 500px;
+}
+.detay > .baslik{
+    position: relative;
+    top: -480px;
+    left: 430px;
+}
+.detay > .aciklama{
+font-size: 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position: relative;
+    top: -480px;
+    left: 390px;
+}
+.detay > .price{
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position: relative;
+top: -350px;
+left: 390px;
+}
+.detay > button {
+    position: relative;
+    top: -365px;
+    left: 550px;
+}
+.detay > input {
+    border: 1px solid rgba(43, 127, 206, 0.7); 
+    width: 150px;
+    position: relative;
+    top: -280px;
+    left: 380px;
+}
+
+.urun3{
+    position: relative;
+    top: -400px;
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    
+}
+.haber3{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+
+}
+.FirstXCard{
+    width: 300px;
+    height: 300px;
+    display: inline-table;  
+    margin-left: 50px;
+    position: relative;
+    top: -440px;
+}
+
+.footer {
+     background:rgba(226, 222, 222, 0.7);
+     width:100%; 
+     height:269px;
+     float:left;
+     color:white;
+      font-family:arial;
+      margin-top: 150px;
+      position: relative;
+      bottom: 0px;
+    }
+
+    .footer #kutu b {
+        font-size:20px;
+        color: rgba(43, 127, 206, 0.7); 
+        margin-left: 30px;
+    }
+
+		.footer_container{
+            width:768px; 
+            height:175px; 
+            margin:30px auto;
+        }
+        .footer > .footer_container > ul {
+            list-style-type:none;
+            margin:17px 0;
+            padding:0px;
+        }
+		#kutu {
+            width:auto;
+             height:125px; 
+             float:left;
+             margin-left: 40px ;
+            }
+            .footer > .footer_container	ul li {
+            float:left;
+          
+             font-size:12px; 
+             margin-bottom:8px; 
+             clear:left;
+              color:#949798;
+              list-style-type: none;
+              margin-top: 15px;
+              color: black;
+             }
+
+		    #kutu:last-child li {
+            float:left;
+            clear:none;
+            margin-right:10px;
+        }
+        #kutu >ul> li > img{
+            width: 35px;
+            height: 35px;
+        }
+        #kutu >ul> li {
+            color: black;
+            font-size: 16px;
+        }
+        #kutu >ul> li > a{
+          text-decoration: none;
+          color: black;
+          font-size: 16px;
+        }
+         .sepet{
+            width: 700px;
+            height: 200px;
+            border: 2px solid black;
+            position: relative;
+            left: 300px;
+            top: -400px;
+
+        } 
+        .sepet > img{
+            width: 200px;
+            height: 100%;
+        }
+        .sepet > .title{
+            position: relative;
+            left: 320px;
+            top: -190px;
+            font-size: 20px;
+
+        }
+        .sepet > .aciklama{
+            position: relative;
+            top: -180px;
+            left: 200px;
+            font-size: 15px;
+        }
+        .sepet > button{
+            position: relative;
+            left: 530px;
+            top: -150px;
+        }
+        .sepetAt{
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+            left: 550px;
+            top: -450px;
+        }
+        .newsCard{
+            margin-top: 10px;
+        }
+        .btn-group{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            text-align: center;
+            color: black;
+        }
+        .btn-group:hover{
+         background-color: rgba(43, 127, 206, 0.7);
+         
+        }
+        .btn-group > a {
+            text-decoration: none;
+            color: black;
+            transition:all .3s ease-in-out;
+        }
+        .category-title{
+            background-color:  rgba(43, 127, 206, 0.7);
+            color: black;
+           
+
+        }
+        .dropdown-menu > a {
+            text-decoration: none;
+        }
+
+        .cart-list{
+            margin-left: 270px;
+            margin-top: -20px;
+        }
+        
+        .d-flex > a {
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+            font-size: 15px;
+            position: relative;
+            left: 600px;
+            top: -30px;
+ 
+        }
+        .d-flex > a:hover {
+            text-decoration: none;
+            color: black;
+            font-size: 17px;
+            margin-right: 10px;
+            color: white;
+            background-color: rgba(43, 127, 206, 0.7);
+            
+        }
+        
+      
+  
