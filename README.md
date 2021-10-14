@@ -1,4 +1,4 @@
-# Urun-Tanitim
+# E-Commerce
 It is an e-commerce site where users can become members, log in, view the products, add them to the basket and update their profile information. Dynamically created with API services.
 
 ## Language and Technologies Used in this project
